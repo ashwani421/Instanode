@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx-frontend
-          image: swr.la-north-2.myhuaweicloud.com/instanodes-organization/instanode-user-panel:v4.1.0
+          image: swr.la-north-2.myhuaweicloud.com/instanodes-organization/instanode-user-panel:v4.1.1
           ports:
             - containerPort: 80 # 🔁 Nginx typically serves on port 80
           envFrom:
